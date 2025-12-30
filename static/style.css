@@ -1,0 +1,52 @@
+/* =======================RESPONSIVE================================ */
+/* Mobile */
+@media (max-width: 600px) {
+  .box {
+    background: #d1e7dd;
+    font-size: 18px;
+  }
+}
+/* Tablet */
+@media (max-width: 1024px) {
+  .box {
+    background: #cff4fc;
+  }
+}
+/* Desktop */
+@media (min-width: 1025px) {
+  .box {
+    background: #f8d7da;
+  }
+}
+/* =======================RESPONSIVE================================ */
+
+
+body {
+    background-color: #091c2d;
+}
+
+p {
+  font-style: times new roman, serif, bold;
+  color: azure;
+  text-align: center;
+  font-size: 100px;
+}
+input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+}
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
