@@ -3,8 +3,7 @@
 <head>
   <title>Simple Input</title>
   <!-- Link to CSS in static/style.css -->
-  <link rel="stylesheet" href="static/style.css">
-
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
   <p>What is your name?</p>
@@ -12,6 +11,6 @@
   <button id="submitBtn">Submit</button>
 
   <!-- Include JS in static/style.js -->
-  <script src="static/style.js"></script>
+  <script src="{{ url_for('static', filename='style.js') }}"></script>
 </body>
 </html>
